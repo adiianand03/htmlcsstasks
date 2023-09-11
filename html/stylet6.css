@@ -1,0 +1,103 @@
+table{
+    background-color: rgb(100,255,100);
+    border-radius: 15px;
+    width: 100%;
+    border:solid black 1px;
+    margin: 0 auto;
+    text-align: center;
+}
+tr {
+    border: 1px solid #000; /* 1px solid black border for rows */
+  }
+  
+  td, th {
+    border: 1px solid #000; /* 1px solid black border for cells (data and header) */
+    border-radius: 10px;
+  }
+#one{
+    width: 300px;
+    height: 150px;
+    /* border-color: yellow; */
+    border: 3px yellowgreen solid;
+    display: inline-block;
+    margin-right: 180px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+#two{
+    width: 300px;
+    height: 150px;
+    border: 3px yellowgreen solid;
+    display: inline-block;
+    margin-right: 180px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+#three{
+    width: 300px;
+    height: 150px;
+    border: 3px yellowgreen solid;
+    border-radius: 20px;
+    margin-bottom: 30px;
+    display: inline-block;
+}
+#four{
+    width: 300px;
+    height: 150px;
+    /* border-color: yellow; */
+    border: 3px yellowgreen solid;
+    display: inline-block;
+    margin-right: 180px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 20px;
+}
+#five{
+    width: 300px;
+    height: 150px;
+    border: 3px yellowgreen solid;
+    display: inline-block;
+    margin-right: 180px;
+    margin-bottom: 30px;
+    border-radius: 0%;
+}
+#six{
+    width: 300px;
+    height: 150px;
+    border: 3px yellowgreen solid;
+    border-radius: 25px;
+    margin-bottom: 30px;
+    
+    display: inline-block;
+    border-radius: 20px;
+}
+#seven{
+    width: 300px;
+    height: 150px;
+    /* border-color: yellow; */
+    border: 3px yellowgreen solid;
+    display: inline-block;
+    margin-right: 180px;
+    margin-left: 30px;
+    margin-bottom: 30px;
+    border-radius: 50%;
+}
+#eight{
+    width: 300px;
+    height: 150px;
+    border: 3px yellowgreen solid;
+    display: inline-block;
+    margin-right: 180px;
+    margin-bottom: 30px;
+    border-radius: 10px;
+}
+#nine{
+    width: 300px;
+    height: 150px;
+    border: 3px yellowgreen solid;
+    border-top-right-radius: 20%;
+    border-bottom-left-radius:20%;
+    margin-bottom: 30px;
+    display: inline-block;
+}

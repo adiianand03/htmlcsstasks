@@ -1,0 +1,23 @@
+*{
+    color: white;
+}
+body{
+    align-content: center;
+}
+div{
+position: absolute;
+height: 500px;
+width: 100px;
+left: 50%;
+right: 50%;
+margin-top: 100px;
+align-items: center;
+text-align: center;
+display: flex;
+flex-direction:column ;
+justify-content: center;
+background-color: chocolate;
+}
+a{
+    margin-top: 20px;
+}

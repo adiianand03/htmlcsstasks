@@ -1,0 +1,27 @@
+td{
+    padding: 15px;
+    height: 20px;
+    align-self: center;
+    font-family:Arial, Helvetica, sans-serif
+}
+#borderm{
+    border: 3px aliceblue solid;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 200px;
+    width: 100%;
+}
+#head{
+    height: 20px;
+    background-color: green;
+    color: white;
+}
+th{
+    height: 50px;
+}
+.first{
+background-color: #EEEFEE;
+}
+.sec{
+    background-color: #B5B4B4;
+}

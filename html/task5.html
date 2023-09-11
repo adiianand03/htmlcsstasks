@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        table {
+            width: 40%;
+        }
+        td{
+            padding: 7px;
+        }
+
+    
+    </style>
+</head>
+<body>
+    <form>
+        <table border="1px" bordercolor="black">
+            <tr>
+                <td><label for="Fullname">Fullname</label></td>
+                <td><input type="text" name="Fullname" placeholder="Enter Fullname"></td>
+            </tr>
+            <tr>
+                <td><label for="Lastname">Lastname</label></td>
+                <td><input type="text" name="Lastname" placeholder="Enter Lastname"></td>
+            </tr>
+            <tr>
+                <td><label for="email">Email</label></td>
+                <td><input type="email" name="email" placeholder="Enter Email"></td>
+            </tr>
+            <tr>
+                <td><label for="password">Password</label></td>
+                <td><input type="password" name="password" placeholder="Enter Password"></td>
+            </tr>
+            <tr>
+                <td><label for="repassword">Repassword</label></td>
+                <td><input type="password" name="repassword" placeholder="Enter Password again"></td>
+            </tr>
+            <tr>
+                <td><label for="gender">Select your gender</label></td>
+                <td>
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label><br>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="age">Age</label></td>
+                <td><input type="number" name="age" placeholder="Enter Age"></td>
+            </tr>
+            <tr>
+                <td><label for="number">Number</label></td>
+                <td><input type="number" name="number" placeholder="Enter Number"></td>
+            </tr>
+            <tr>
+                <td><label for="address">Address</label></td>
+                <td><input type="text" name="address" placeholder="Enter Address"></td>
+            </tr>
+            <tr>
+                <td><label for="state">State</label></td>
+                <td><input type="text" name="state" placeholder="Enter your state"></td>
+            </tr>
+            <tr>
+                <td><label for="country">Select Country</label></td>
+                <td>
+                    <select name="country" class="scrollable-select">
+                        <option value="India">India</option>
+                        <option value="China">China</option>
+                        <option value="Russia">Russia</option>
+                        <option value="Pakistan">Pakistan</option>
+                    </select>
+                </td>
+            </tr>
+            <tr>
+                <td><label for="languages">Select the languages you know</label></td>
+                <td>
+                    <input type="checkbox" id="english" name="languages" value="english">
+                    <label for="english">English</label><br>
+                    <input type="checkbox" id="hindi" name="languages" value="hindi">
+                    <label for="hindi">Hindi</label><br>
+                    <input type="checkbox" id="Telugu" name="languages" value="Telugu">
+                    <label for="Telugu">Telugu</label><br>
+                    <input type="checkbox" id="Kannada" name="languages" value="Kannada">
+                    <label for="Kannada">Kannada</label><br>
+                    <input type="checkbox" id="other" name="languages" value="other">
+                    <label for="other">Other</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="2">
+                    <input type="checkbox" name="declaration">
+                    <label for="declaration">I hereby declare all details given below are true</label>
+                </td>
+            </tr>
+
+            <tr><td colspan="2">Login to <a href="https://ethnus.com/" target="_blank">Ethnus</a> website </td></tr>
+        </table>
+        
+        <br>
+        <input type="submit">
+    </form>
+</body>
+</html>

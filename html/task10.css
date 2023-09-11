@@ -1,0 +1,44 @@
+body {
+    background-color: rgb(221, 195, 24);
+
+}
+
+#container {
+    display: flex;
+    align-items: center;
+    margin-left: 30px ;
+}
+
+#navbar {
+    color: blue;
+    text-align: center;
+    margin-right: 20px; /* Adjust the spacing between the navbar and text */
+    font-size: larger;
+    font-weight: 200;
+    display: flex;
+    justify-content: center;
+    text-decoration: none;
+    flex-direction: column;
+    /* border: 2px solid aliceblue; */
+}
+
+a {
+    display: block; /* Display links as block elements to stack them vertically */
+    margin: 10px 0; /* Add some margin for spacing between links */
+    background-color: white;
+    width: 120px;
+    height: 25px;
+}
+p{
+    font-size: 20px;
+    font-weight: 300;
+}
+#textpart {
+    color: rgb(144, 35, 144);
+    margin-left: 180px;
+    margin-top: 100px;
+}
+
+h1 {
+    color: purple;
+}
